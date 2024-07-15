@@ -1,6 +1,6 @@
-let pronoun = ["the","our"];
-let adj = ["great","big"];
-let noun = ["jogger","racoon"];
+let pronoun = ["the","our","his","we"];
+let adj = ["great","big","amazing","small"];
+let noun = ["jogger","racoon","dog","merchant","drive"];
 
 for (let i = 0; i < pronoun.length; i++) {
   for (let j = 0; j < adj.length; j++) {
@@ -9,3 +9,4 @@ for (let i = 0; i < pronoun.length; i++) {
     }
   }
 }
+

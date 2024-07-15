@@ -1,12 +1,4 @@
-/* eslint-disable */
-import "bootstrap";
-import "./style.css";
-
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
-
-window.onload = function() {
-  function generador() {
+function generador() {
     var palabras = {
          pronoun: [ "The", "Your", "Our", "Mine", "They"],
          adj: [ "big", "great", "amazing", "Illegal", "Large", "Obese", "Hot"],
